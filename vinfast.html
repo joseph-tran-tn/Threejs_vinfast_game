@@ -8,60 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
-  <style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    background: #666;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-weight: 100;
-  }
-
-  canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .guidebox {
-    z-index: 2;
-    background: rgba(0, 0, 0, .5);
-    backdrop-filter: blur(5px);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 30px;
-    margin: 30px;
-    border: 1px solid rgba(255, 255, 255, .5);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
-
-  .guidebox h1 {
-    margin-bottom: 10px;
-  }
-
-  .guidebox .guide {
-    line-height: 2;
-  }
-
-  .guidebox .guide p {
-    margin-top: 10px;
-  }
-
-  .guidebox .guide p span {
-    display: inline-block;
-    border: 1px solid rgba(255, 255, 255, .5);
-    padding: 0px 5px;
-    border-radius: 5px;
-  }
-  </style>
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -73,10 +20,10 @@
       <p>Press <span>shift</span> to open a trunk</p>
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
-  <script src="/anhtt/threejs/lib/examples/js/loaders/GLTFLoader.js"></script>
-  <script src="../OrbitControls.js"></script>
+  <script src="gsap.min.js"></script>
+  <script src="three.min.js"></script>
+  <script src="GLTFLoader.js"></script>
+  <script src="OrbitControls.js"></script>
   <script src="vinfast.js"></script>
 </body>
 
